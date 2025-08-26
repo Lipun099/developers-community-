@@ -57,14 +57,12 @@ We love contributions from everyone!
 5. **Push** to your branch  
 6. Open a **Pull Request** 🎉  
 
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.  
 
 ---
 
 ## 📢 Stay Connected
 - 🌍 GitHub Discussions  
-- 💬 Discord / Slack (add link here)  
-- 📧 Email: yourcommunity@email.com  
+  
 
 ---
 
