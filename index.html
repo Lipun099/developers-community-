@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevNexus - Developer Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section with Interactive Background -->
+  <section class="hero-section">
+    <canvas id="hero-canvas"></canvas>
+    
+    <div class="header-area">
+      <div class="logo-container">
+        <div class="logo-circles">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+        </div>
+        <h1 class="logo-text">DevNexus</h1>
+      </div>
+      
+      <nav class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+    
+    <div class="hero-content">
+      <h1 class="hero-title">Where Code Meets Creativity</h1>
+      <p class="hero-subtitle" id="hero-stats-text">
+        our community drifts at coordinates (0.00, 0.00)<br>
+        gravitational field extends 0.10 units into quantum foam<br>
+        currently merging with 0 other entities
+      </p>
+      <a href="#join" class="hero-cta">Join the Collective</a>
+    </div>
+    
+    <div class="hero-stats">
+      <p>DevNexus State • Active</p>
+      <p>where developers connect</p>
+    </div>
+  </section>
+  
+  <!-- Main Content -->
+  <main class="main-content">
+    <section id="features" class="section">
+      <p class="section-subtitle">Why Join Us</p>
+      <h2 class="section-title">Build Together, Grow Together</h2>
+      <p class="feature-desc">DevNexus is a collective of passionate developers pushing the boundaries of technology. We believe in collaboration, open knowledge, and creating meaningful digital experiences.</p>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Collaborative Projects</h3>
+          <p class="feature-desc">Work with like-minded developers on cutting-edge projects that solve real problems and push technological boundaries.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3 class="feature-title">Knowledge Sharing</h3>
+          <p class="feature-desc">Weekly tech talks, code reviews, and workshops to help you stay at the forefront of development trends.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3 class="feature-title">Global Network</h3>
+          <p class="feature-desc">Connect with developers worldwide through our online platforms and local meetups in major tech hubs.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="events" class="section">
+      <p class="section-subtitle">What's Happening</p>
+      <h2 class="section-title">Upcoming Events</h2>
+      
+      <div class="events-list">
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-day">15</span>
+            <span class="event-month">Jun</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-title">WebGL & Three.js Workshop</h3>
+            <p class="event-meta">Online • 6:00 PM GMT</p>
+            <p class="event-desc">Learn how to create interactive 3D experiences for the web with our comprehensive workshop on WebGL and Three.js fundamentals.</p>
+            <a href="#" class="event-cta">Register</a>
+          </div>
+        </div>
+        
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-day">22</span>
+            <span class="event-month">Jun</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-title">Developer Hackathon</h3>
+            <p class="event-meta">San Francisco • 9:00 AM PST</p>
+            <p class="event-desc">24-hour hackathon focused on building innovative solutions for social impact. Prizes for top projects!</p>
+            <a href="#" class="event-cta">Register</a>
+          </div>
+        </div>
+        
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-day">05</span>
+            <span class="event-month">Jul</span>
+          </div>
+          <div class="event-details">
+            <h3 class="event-title">AI & ML Roundtable</h3>
+            <p class="event-meta">Online • 3:00 PM GMT</p>
+            <p class="event-desc">Discussion with industry leaders about the latest advancements in artificial intelligence and machine learning.</p>
+            <a href="#" class="event-cta">Register</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community" class="section">
+      
+    <div class="section-wrapper">
+      <header class="header">
+        <hgroup class="hgroup">
+          <h2 class="headline">Meet Our Team!</h2>
+          <p class="tagline">Creative minds shaping the future</p>
+        </hgroup>
+        <a href="#" class="section-link"> View All </a>
+      </header>
+      <!-- nth-siblings = Total cards count - 1; update this whenever you add/remove a card  -->
+      <ul class="cards" style="--nth-siblings: 5">
+        <li class="card" style="--nth-child: 1">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-1.avif"
+                width="144" height="144" alt="Ethan B., DevOps Engineer" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Ethan B.</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">DevOps Engineer</p>
+                <p class="team-bio">
+                  Master of servers, pipelines, and keeping things running
+                  smoothly.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card" style="--nth-child: 2">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-2.avif"
+                width="144" height="144" alt="Ava L., UI/UX Designer" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Ava L.</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">UI/UX Designer</p>
+                <p class="team-bio">
+                  Turning ideas into stunning designs, one pixel at a time.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card" style="--nth-child: 3">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-3.avif"
+                width="144" height="144" alt="Liam J., Mobile Developer" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Liam J.</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">Mobile Developer</p>
+                <p class="team-bio">
+                  Crafting sleek, intuitive apps for users on the go.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card" style="--nth-child: 4">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-4.avif"
+                width="144" height="144" alt="Sophia K., Data Scientist" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Sophia K.</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">Data Scientist</p>
+                <p class="team-bio">
+                  Decoding patterns and finding insights in the chaos.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card" style="--nth-child: 5">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-5.avif"
+                width="144" height="144" alt="Codey X, AI Code Assistant" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Codey X</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">AI Code Assistant</p>
+                <p class="team-bio">
+                  Powered by algorithms, driven by collaboration.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card" style="--nth-child: 6">
+          <a href="#" class="avatar-link-wrapper">
+            <div class="visual">
+              <img class="avatar-img"
+                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-6.avif"
+                width="144" height="144" alt="Maya R., Project Manager" />
+            </div>
+            <div class="tooltiptext">
+              <h3 class="team-name">Maya R.</h3>
+              <div class="team-content-wrapper">
+                <p class="team-title">Project Manager</p>
+                <p class="team-bio">
+                  Keeping the team in sync and deadlines on track.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+    
+    <section id="contact" class="section">
+      <p class="section-subtitle">Ready to Join?</p>
+      <h2 class="section-title">Become Part of DevNexus</h2>
+      <p class="feature-desc">We're always looking for passionate developers to join our community. Whether you're a beginner or an experienced developer, there's a place for you here.</p>
+      
+      <form class="join-form">
+        <div style="display: grid; gap: 1rem; max-width: 500px; margin: 2rem auto;">
+          <input type="text" placeholder="Your Name" style="padding: 1rem; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; font-family: var(--font-secondary);">
+          <input type="email" placeholder="Email Address" style="padding: 1rem; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; font-family: var(--font-secondary);">
+          <textarea placeholder="Tell us about your interests and skills" style="padding: 1rem; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; font-family: var(--font-secondary); min-height: 120px;"></textarea>
+          <button type="submit" class="hero-cta" style="width: 100%;">Submit Application</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; 2023 DevNexus. All rights reserved.</p>
+    <p>Follow us on 
+      <a href="#" class="footer-link">Twitter</a>, 
+      <a href="#" class="footer-link">GitHub</a>,
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    // Three.js Interactive Background
+    let scene, camera, renderer, material;
+    let clock, mouse = { x: 0, y: 0 };
+    let cursorSphere3D = new THREE.Vector3(0, 0, 0);
+    let activeMerges = 0;
+    let targetMousePosition = new THREE.Vector2(0.5, 0.5);
+    let mousePosition = new THREE.Vector2(0.5, 0.5);
+    let lastTime = performance.now();
+    let frameCount = 0;
+    let fps = 0;
+
+    // Device detection
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const isLowPowerDevice = isMobile || navigator.hardwareConcurrency <= 4;
+    const devicePixelRatio = Math.min(
+      window.devicePixelRatio || 1,
+      isMobile ? 1.5 : 2
+    );
+
+    const settings = {
+      sphereCount: isMobile ? 4 : 6,
+      ambientIntensity: 0.02,
+      diffuseIntensity: 0.6,
+      specularIntensity: 1.8,
+      specularPower: 8,
+      fresnelPower: 1.2,
+      backgroundColor: new THREE.Color(0x050505),
+      sphereColor: new THREE.Color(0x000000),
+      lightColor: new THREE.Color(0x00ffaa),
+      lightPosition: new THREE.Vector3(1, 1, 1),
+      smoothness: 0.3,
+      contrast: 2.0,
+      fogDensity: 0.12,
+      cursorGlowIntensity: 0.4,
+      cursorGlowRadius: 1.2,
+      cursorGlowColor: new THREE.Color(0x00ffaa),
+      fixedTopLeftRadius: 0.8,
+      fixedBottomRightRadius: 0.9,
+      smallTopLeftRadius: 0.3,
+      smallBottomRightRadius: 0.35,
+      cursorRadiusMin: 0.08,
+      cursorRadiusMax: 0.15,
+      animationSpeed: 0.6,
+      movementScale: 1.2,
+      mouseSmoothness: 0.1,
+      mergeDistance: 1.5,
+      mouseProximityEffect: true,
+      minMovementScale: 0.3,
+      maxMovementScale: 1.0
+    };
+
+    function getStoryText(x, y, radius, merges, fps) {
+      if (isMobile) {
+        return `community: (${x}, ${y})<br>field: ${radius}u<br>merges: ${merges}<br>flux: ${fps}hz`;
+      }
+      return `our community drifts at coordinates (${x}, ${y})<br>gravitational field extends ${radius} units into quantum foam<br>currently merging with ${merges} other entities<br>temporal flux: ${fps} cycles per second`;
+    }
+
+    function init() {
+      const canvas = document.getElementById("hero-canvas");
+      scene = new THREE.Scene();
+      camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 10);
+      camera.position.z = 1;
+      clock = new THREE.Clock();
+
+      renderer = new THREE.WebGLRenderer({
+        canvas: canvas,
+        antialias: !isMobile && !isLowPowerDevice,
+        alpha: true,
+        powerPreference: isMobile ? "default" : "high-performance",
+        preserveDrawingBuffer: false,
+        premultipliedAlpha: false
+      });
+
+      renderer.setPixelRatio(devicePixelRatio);
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setClearColor(0x000000, 0);
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+      // Create material with shader
+      material = new THREE.ShaderMaterial({
+        uniforms: {
+          uTime: { value: 0 },
+          uResolution: { value: new THREE.Vector2(window.innerWidth, window.innerHeight) },
+          uActualResolution: {
+            value: new THREE.Vector2(
+              window.innerWidth * devicePixelRatio,
+              window.innerHeight * devicePixelRatio
+            )
+          },
+          uPixelRatio: { value: devicePixelRatio },
+          uMousePosition: { value: new THREE.Vector2(0.5, 0.5) },
+          uCursorSphere: { value: new THREE.Vector3(0, 0, 0) },
+          uCursorRadius: { value: settings.cursorRadiusMin },
+          uSphereCount: { value: settings.sphereCount },
+          uFixedTopLeftRadius: { value: settings.fixedTopLeftRadius },
+          uFixedBottomRightRadius: { value: settings.fixedBottomRightRadius },
+          uSmallTopLeftRadius: { value: settings.smallTopLeftRadius },
+          uSmallBottomRightRadius: { value: settings.smallBottomRightRadius },
+          uMergeDistance: { value: settings.mergeDistance },
+          uSmoothness: { value: settings.smoothness },
+          uAmbientIntensity: { value: settings.ambientIntensity },
+          uDiffuseIntensity: { value: settings.diffuseIntensity },
+          uSpecularIntensity: { value: settings.specularIntensity },
+          uSpecularPower: { value: settings.specularPower },
+          uFresnelPower: { value: settings.fresnelPower },
+          uBackgroundColor: { value: settings.backgroundColor },
+          uSphereColor: { value: settings.sphereColor },
+          uLightColor: { value: settings.lightColor },
+          uLightPosition: { value: settings.lightPosition },
+          uContrast: { value: settings.contrast },
+          uFogDensity: { value: settings.fogDensity },
+          uAnimationSpeed: { value: settings.animationSpeed },
+          uMovementScale: { value: settings.movementScale },
+          uMouseProximityEffect: { value: settings.mouseProximityEffect },
+          uMinMovementScale: { value: settings.minMovementScale },
+          uMaxMovementScale: { value: settings.maxMovementScale },
+          uCursorGlowIntensity: { value: settings.cursorGlowIntensity },
+          uCursorGlowRadius: { value: settings.cursorGlowRadius },
+          uCursorGlowColor: { value: settings.cursorGlowColor },
+          uIsSafari: { value: isSafari ? 1.0 : 0.0 },
+          uIsMobile: { value: isMobile ? 1.0 : 0.0 },
+          uIsLowPower: { value: isLowPowerDevice ? 1.0 : 0.0 }
+        },
+        vertexShader: `
+          varying vec2 vUv;
+          void main() {
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+          }
+        `,
+        fragmentShader: `
+          ${isMobile || isSafari || isLowPowerDevice ? "precision mediump float;" : "precision highp float;"}
+          
+          uniform float uTime;
+          uniform vec2 uResolution;
+          uniform vec2 uActualResolution;
+          uniform float uPixelRatio;
+          uniform vec2 uMousePosition;
+          uniform vec3 uCursorSphere;
+          uniform float uCursorRadius;
+          uniform int uSphereCount;
+          uniform float uFixedTopLeftRadius;
+          uniform float uFixedBottomRightRadius;
+          uniform float uSmallTopLeftRadius;
+          uniform float uSmallBottomRightRadius;
+          uniform float uMergeDistance;
+          uniform float uSmoothness;
+          uniform float uAmbientIntensity;
+          uniform float uDiffuseIntensity;
+          uniform float uSpecularIntensity;
+          uniform float uSpecularPower;
+          uniform float uFresnelPower;
+          uniform vec3 uBackgroundColor;
+          uniform vec3 uSphereColor;
+          uniform vec3 uLightColor;
+          uniform vec3 uLightPosition;
+          uniform float uContrast;
+          uniform float uFogDensity;
+          uniform float uAnimationSpeed;
+          uniform float uMovementScale;
+          uniform bool uMouseProximityEffect;
+          uniform float uMinMovementScale;
+          uniform float uMaxMovementScale;
+          uniform float uCursorGlowIntensity;
+          uniform float uCursorGlowRadius;
+          uniform vec3 uCursorGlowColor;
+          uniform float uIsSafari;
+          uniform float uIsMobile;
+          uniform float uIsLowPower;
+          
+          varying vec2 vUv;
+          
+          const float PI = 3.14159265359;
+          const float EPSILON = 0.001;
+          const float MAX_DIST = 100.0;
+          
+          float smin(float a, float b, float k) {
+            float h = max(k - abs(a - b), 0.0) / k;
+            return min(a, b) - h * h * k * 0.25;
+          }
+          
+          float sdSphere(vec3 p, float r) {
+            return length(p) - r;
+          }
+          
+          vec3 screenToWorld(vec2 normalizedPos) {
+            vec2 uv = normalizedPos * 2.0 - 1.0;
+            uv.x *= uResolution.x / uResolution.y;
+            return vec3(uv * 2.0, 0.0);
+          }
+          
+          float getDistanceToCenter(vec2 pos) {
+            float dist = length(pos - vec2(0.5, 0.5)) * 2.0;
+            return smoothstep(0.0, 1.0, dist);
+          }
+          
+          float sceneSDF(vec3 pos) {
+            float result = MAX_DIST;
+            
+            vec3 topLeftPos = screenToWorld(vec2(0.08, 0.92));
+            float topLeft = sdSphere(pos - topLeftPos, uFixedTopLeftRadius);
+            
+            vec3 smallTopLeftPos = screenToWorld(vec2(0.25, 0.72));
+            float smallTopLeft = sdSphere(pos - smallTopLeftPos, uSmallTopLeftRadius);
+            
+            vec3 bottomRightPos = screenToWorld(vec2(0.92, 0.08));
+            float bottomRight = sdSphere(pos - bottomRightPos, uFixedBottomRightRadius);
+            
+            vec3 smallBottomRightPos = screenToWorld(vec2(0.72, 0.25));
+            float smallBottomRight = sdSphere(pos - smallBottomRightPos, uSmallBottomRightRadius);
+            
+            float t = uTime * uAnimationSpeed;
+            
+            float dynamicMovementScale = uMovementScale;
+            if (uMouseProximityEffect) {
+              float distToCenter = getDistanceToCenter(uMousePosition);
+              float mixFactor = smoothstep(0.0, 1.0, distToCenter);
+              dynamicMovementScale = mix(uMinMovementScale, uMaxMovementScale, mixFactor);
+            }
+            
+            int maxIter = uIsMobile > 0.5 ? 4 : (uIsLowPower > 0.5 ? 6 : min(uSphereCount, 10));
+            for (int i = 0; i < 10; i++) {
+              if (i >= uSphereCount || i >= maxIter) break;
+              
+              float fi = float(i);
+              float speed = 0.4 + fi * 0.12;
+              float radius = 0.12 + mod(fi, 3.0) * 0.06;
+              float orbitRadius = (0.3 + mod(fi, 3.0) * 0.15) * dynamicMovementScale;
+              float phaseOffset = fi * PI * 0.35;
+              
+              float distToCursor = length(vec3(0.0) - uCursorSphere);
+              float proximityScale = 1.0 + (1.0 - smoothstep(0.0, 1.0, distToCursor)) * 0.5;
+              orbitRadius *= proximityScale;
+              
+              vec3 offset;
+              if (i == 0) {
+                offset = vec3(
+                  sin(t * speed) * orbitRadius * 0.7,
+                  sin(t * 0.5) * orbitRadius,
+                  cos(t * speed * 0.7) * orbitRadius * 0.5
+                );
+              } else if (i == 1) {
+                offset = vec3(
+                  sin(t * speed + PI) * orbitRadius * 0.5,
+                  -sin(t * 0.5) * orbitRadius,
+                  cos(t * speed * 0.7 + PI) * orbitRadius * 0.5
+                );
+              } else {
+                offset = vec3(
+                  sin(t * speed + phaseOffset) * orbitRadius * 0.8,
+                  cos(t * speed * 0.85 + phaseOffset * 1.3) * orbitRadius * 0.6,
+                  sin(t * speed * 0.5 + phaseOffset) * 0.3
+                );
+              }
+              
+              vec3 toCursor = uCursorSphere - offset;
+              float cursorDist = length(toCursor);
+              if (cursorDist < uMergeDistance && cursorDist > 0.0) {
+                float attraction = (1.0 - cursorDist / uMergeDistance) * 0.3;
+                offset += normalize(toCursor) * attraction;
+              }
+              
+              float movingSphere = sdSphere(pos - offset, radius);
+              
+              float blend = 0.05;
+              if (cursorDist < uMergeDistance) {
+                float influence = 1.0 - (cursorDist / uMergeDistance);
+                blend = mix(0.05, uSmoothness, influence * influence * influence);
+              }
+              
+              result = smin(result, movingSphere, blend);
+            }
+            
+            float cursorBall = sdSphere(pos - uCursorSphere, uCursorRadius);
+            
+            float topLeftGroup = smin(topLeft, smallTopLeft, 0.4);
+            float bottomRightGroup = smin(bottomRight, smallBottomRight, 0.4);
+            
+            result = smin(result, topLeftGroup, 0.3);
+            result = smin(result, bottomRightGroup, 0.3);
+            result = smin(result, cursorBall, uSmoothness);
+            
+            return result;
+          }
+          
+          vec3 calcNormal(vec3 p) {
+            float eps = uIsLowPower > 0.5 ? 0.002 : 0.001;
+            return normalize(vec3(
+              sceneSDF(p + vec3(eps, 0, 0)) - sceneSDF(p - vec3(eps, 0, 0)),
+              sceneSDF(p + vec3(0, eps, 0)) - sceneSDF(p - vec3(0, eps, 0)),
+              sceneSDF(p + vec3(0, 0, eps)) - sceneSDF(p - vec3(0, 0, eps))
+            ));
+          }
+          
+          float ambientOcclusion(vec3 p, vec3 n) {
+            if (uIsLowPower > 0.5) {
+              float h1 = sceneSDF(p + n * 0.03);
+              float h2 = sceneSDF(p + n * 0.06);
+              float occ = (0.03 - h1) + (0.06 - h2) * 0.5;
+              return clamp(1.0 - occ * 2.0, 0.0, 1.0);
+            } else {
+              float occ = 0.0;
+              float weight = 1.0;
+              for (int i = 0; i < 6; i++) {
+                float dist = 0.01 + 0.015 * float(i * i);
+                float h = sceneSDF(p + n * dist);
+                occ += (dist - h) * weight;
+                weight *= 0.85;
+              }
+              return clamp(1.0 - occ, 0.0, 1.0);
+            }
+          }
+          
+          float softShadow(vec3 ro, vec3 rd, float mint, float maxt, float k) {
+            if (uIsLowPower > 0.5) {
+              float result = 1.0;
+              float t = mint;
+              for (int i = 0; i < 3; i++) {
+                t += 0.3;
+                if (t >= maxt) break;
+                float h = sceneSDF(ro + rd * t);
+                if (h < EPSILON) return 0.0;
+                result = min(result, k * h / t);
+              }
+              return result;
+            } else {
+              float result = 1.0;
+              float t = mint;
+              for (int i = 0; i < 20; i++) {
+                if (t >= maxt) break;
+                float h = sceneSDF(ro + rd * t);
+                if (h < EPSILON) return 0.0;
+                result = min(result, k * h / t);
+                t += h;
+              }
+              return result;
+            }
+          }
+          
+          float rayMarch(vec3 ro, vec3 rd) {
+            float t = 0.0;
+            int maxSteps = uIsMobile > 0.5 ? 16 : (uIsSafari > 0.5 ? 16 : 48);
+            
+            for (int i = 0; i < 48; i++) {
+              if (i >= maxSteps) break;
+              
+              vec3 p = ro + rd * t;
+              float d = sceneSDF(p);
+              
+              if (d < EPSILON) {
+                return t;
+              }
+              
+              if (t > 5.0) {
+                break;
+              }
+              
+              t += d * (uIsLowPower > 0.5 ? 1.2 : 0.9);
+            }
+            
+            return -1.0;
+          }
+          
+          vec3 lighting(vec3 p, vec3 rd, float t) {
+            if (t < 0.0) {
+              return vec3(0.0);
+            }
+            
+            vec3 normal = calcNormal(p);
+            vec3 viewDir = -rd;
+            
+            vec3 baseColor = uSphereColor;
+            
+            float ao = ambientOcclusion(p, normal);
+            
+            vec3 ambient = uLightColor * uAmbientIntensity * ao;
+            
+            vec3 lightDir = normalize(uLightPosition);
+            float diff = max(dot(normal, lightDir), 0.0);
+            
+            float shadow = softShadow(p, lightDir, 0.01, 10.0, 20.0);
+            
+            vec3 diffuse = uLightColor * diff * uDiffuseIntensity * shadow;
+            
+            vec3 reflectDir = reflect(-lightDir, normal);
+            float spec = pow(max(dot(viewDir, reflectDir), 0.0), uSpecularPower);
+            float fresnel = pow(1.0 - max(dot(viewDir, normal), 0.0), uFresnelPower);
+            
+            vec3 specular = uLightColor * spec * uSpecularIntensity * fresnel;
+            
+            vec3 fresnelRim = uLightColor * fresnel * 0.4;
+            
+            float distToCursor = length(p - uCursorSphere);
+            if (distToCursor < uCursorRadius + 0.4) {
+              float highlight = 1.0 - smoothstep(0.0, uCursorRadius + 0.4, distToCursor);
+              specular += uLightColor * highlight * 0.2;
+              
+              float glow = exp(-distToCursor * 3.0) * 0.15;
+              ambient += uLightColor * glow * 0.5;
+            }
+            
+            vec3 color = (baseColor + ambient + diffuse + specular + fresnelRim) * ao;
+            
+            color = pow(color, vec3(uContrast * 0.9));
+            color = color / (color + vec3(0.8));
+            
+            return color;
+          }
+          
+          float calculateCursorGlow(vec3 worldPos) {
+            float dist = length(worldPos.xy - uCursorSphere.xy);
+            float glow = 1.0 - smoothstep(0.0, uCursorGlowRadius, dist);
+            glow = pow(glow, 2.0);
+            return glow * uCursorGlowIntensity;
+          }
+          
+          void main() {
+            vec2 uv = (gl_FragCoord.xy * 2.0 - uResolution.xy) / uResolution.xy;
+            uv.x *= uResolution.x / uResolution.y;
+            
+            vec3 ro = vec3(uv * 2.0, -1.0);
+            vec3 rd = vec3(0.0, 0.0, 1.0);
+            
+            float t = rayMarch(ro, rd);
+            
+            vec3 p = ro + rd * t;
+            
+            vec3 color = lighting(p, rd, t);
+            
+            float cursorGlow = calculateCursorGlow(ro);
+            vec3 glowContribution = uCursorGlowColor * cursorGlow;
+            
+            if (t > 0.0) {
+              float fogAmount = 1.0 - exp(-t * uFogDensity);
+              color = mix(color, uBackgroundColor.rgb, fogAmount * 0.3);
+              
+              color += glowContribution * 0.3;
+              
+              gl_FragColor = vec4(color, 1.0);
+            } else {
+              if (cursorGlow > 0.01) {
+                gl_FragColor = vec4(glowContribution, cursorGlow * 0.8);
+              } else {
+                gl_FragColor = vec4(0.0, 0.0, 0.0, 0.0);
+              }
+            }
+          }
+        `,
+        transparent: true
+      });
+
+      const geometry = new THREE.PlaneGeometry(2, 2);
+      const mesh = new THREE.Mesh(geometry, material);
+      scene.add(mesh);
+
+      setupEventListeners();
+
+      // Initialize cursor position
+      onPointerMove({
+        clientX: window.innerWidth / 2,
+        clientY: window.innerHeight / 2
+      });
+    }
+
+    function setupEventListeners() {
+      window.addEventListener("mousemove", onPointerMove, { passive: true });
+      window.addEventListener("touchstart", onTouchStart, { passive: false });
+      window.addEventListener("touchmove", onTouchMove, { passive: false });
+      window.addEventListener("touchend", onTouchEnd, { passive: false });
+      window.addEventListener("resize", onWindowResize, { passive: true });
+      window.addEventListener(
+        "orientationchange",
+        () => {
+          setTimeout(onWindowResize, 100);
+        },
+        { passive: true }
+      );
+    }
+
+    function onTouchStart(event) {
+      event.preventDefault();
+      if (event.touches.length > 0) {
+        const touch = event.touches[0];
+        onPointerMove({
+          clientX: touch.clientX,
+          clientY: touch.clientY
+        });
+      }
+    }
+
+    function onTouchMove(event) {
+      event.preventDefault();
+      if (event.touches.length > 0) {
+        const touch = event.touches[0];
+        onPointerMove({
+          clientX: touch.clientX,
+          clientY: touch.clientY
+        });
+      }
+    }
+
+    function onTouchEnd(event) {
+      event.preventDefault();
+    }
+
+    function onPointerMove(event) {
+      targetMousePosition.x = event.clientX / window.innerWidth;
+      targetMousePosition.y = 1.0 - event.clientY / window.innerHeight;
+
+      const normalizedX = targetMousePosition.x;
+      const normalizedY = targetMousePosition.y;
+      const worldPos = screenToWorldJS(normalizedX, normalizedY);
+
+      cursorSphere3D.copy(worldPos);
+
+      let closestDistance = 1000.0;
+      activeMerges = 0;
+
+      const fixedPositions = [
+        screenToWorldJS(0.08, 0.92),
+        screenToWorldJS(0.25, 0.72),
+        screenToWorldJS(0.92, 0.08),
+        screenToWorldJS(0.72, 0.25)
+      ];
+
+      fixedPositions.forEach((pos) => {
+        const dist = cursorSphere3D.distanceTo(pos);
+        closestDistance = Math.min(closestDistance, dist);
+        if (dist < settings.mergeDistance) activeMerges++;
+      });
+
+      const proximityFactor = Math.max(
+        0,
+        1.0 - closestDistance / settings.mergeDistance
+      );
+      const smoothFactor =
+        proximityFactor * proximityFactor * (3.0 - 2.0 * proximityFactor);
+      const dynamicRadius =
+        settings.cursorRadiusMin +
+        (settings.cursorRadiusMax - settings.cursorRadiusMin) * smoothFactor;
+
+      material.uniforms.uCursorSphere.value.copy(cursorSphere3D);
+      material.uniforms.uCursorRadius.value = dynamicRadius;
+
+      updateStory(
+        cursorSphere3D.x,
+        cursorSphere3D.y,
+        dynamicRadius,
+        activeMerges,
+        fps
+      );
+    }
+
+    function screenToWorldJS(normalizedX, normalizedY) {
+      const uv_x = normalizedX * 2.0 - 1.0;
+      const uv_y = normalizedY * 2.0 - 1.0;
+      const aspect = window.innerWidth / window.innerHeight;
+      return new THREE.Vector3(uv_x * aspect * 2.0, uv_y * 2.0, 0.0);
+    }
+
+    function updateStory(x, y, radius, merges, fps) {
+      const storyText = document.getElementById("hero-stats-text");
+      if (storyText) {
+        const newText = getStoryText(
+          x.toFixed(2),
+          y.toFixed(2),
+          radius.toFixed(2),
+          merges,
+          fps || 0
+        );
+        storyText.innerHTML = newText;
+      }
+    }
+
+    function onWindowResize() {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      camera.updateProjectionMatrix();
+      renderer.setSize(width, height);
+
+      material.uniforms.uResolution.value.set(width, height);
+      material.uniforms.uActualResolution.value.set(
+        width * devicePixelRatio,
+        height * devicePixelRatio
+      );
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+      render();
+    }
+
+    function render() {
+      const currentTime = performance.now();
+      frameCount++;
+
+      if (currentTime - lastTime >= 1000) {
+        fps = Math.round((frameCount * 1000) / (currentTime - lastTime));
+        updateStory(
+          cursorSphere3D.x,
+          cursorSphere3D.y,
+          material.uniforms.uCursorRadius.value,
+          activeMerges,
+          fps
+        );
+        frameCount = 0;
+        lastTime = currentTime;
+      }
+
+      mousePosition.x +=
+        (targetMousePosition.x - mousePosition.x) * settings.mouseSmoothness;
+      mousePosition.y +=
+        (targetMousePosition.y - mousePosition.y) * settings.mouseSmoothness;
+
+      material.uniforms.uTime.value = clock.getElapsedTime();
+      material.uniforms.uMousePosition.value = mousePosition;
+
+      if (performance.now() % 5000 < 16) {
+        renderer.renderLists.dispose();
+      }
+
+      renderer.render(scene, camera);
+    }
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Initialize everything
+    init();
+    animate();
+  </script>
+</body>
+</html>
